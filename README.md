@@ -8,7 +8,7 @@ Clef and Clef-flash are Cloudflare's open-weight decision models. They take a st
 
 Community-maintained. Not affiliated with Cloudflare. A listing means a project meets the [inclusion rules](CONTRIBUTING.md#what-gets-listed), not that it has been reviewed for quality or security; read the code before you depend on it. To add a project, open a pull request or [file an issue](https://github.com/rohinrohin/awesome-clef/issues/new?template=submit-project.yml). See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-109 entries · last refreshed 2026-10-14
+109 entries · last refreshed 2026-10-15
 
 ## Contents
 
@@ -125,10 +125,10 @@ Playgrounds, games, and small experiments you can run.
 Benchmarks, evaluations, and head-to-head comparisons.
 
 - [Jev Decision Index](https://huggingface.co/spaces/multimodalart/jev-decision-index) - Hugging Face Space leaderboard comparing decision models, including Clef and Clef-flash, cited in Cloudflare's launch post.
+- [benchessmark](https://github.com/ickas/benchessmark) - Chess as a benchmark for decision models: Jev vs Clef, graded by Stockfish, with a replay viewer and video export.
 - [clef-evals](https://github.com/Gjusev/clef-evals) ([site](https://pypi.org/project/clef-evals/)) - Calibration-first evaluation toolkit for Cloudflare's Clef decision models. Judge cheap, audit confidence.
 - [system1-rerank-bench](https://github.com/dchristopoulos/system1-rerank-bench) - Do System 1 decision models work as RAG rerankers? Jev, Clef-flash and Laya vs an LLM and six open rerankers on BEIR, with paired confidence intervals.
 - [admission-decision-eval](https://github.com/nicia-ai/admission-decision-eval) - Decision models on a knowledge-base write-admission task: Jev, Clef, Clef-flash.
-- [benchessmark](https://github.com/ickas/benchessmark) - Chess as a benchmark for decision models: Jev vs Clef, graded by Stockfish, with a replay viewer and video export.
 - [blackbox](https://github.com/acoyfellow/blackbox) ([site](https://blackbox.coey.dev)) - Replay a Pi agent log as a timeline and see which step the Clef model scores as the fault.
 - [decision-map-bench](https://github.com/move38studios/decision-map-bench) - How well do decision models know geography? Jev, Clef, Clef-flash and Laya on a 2° world grid.
 - [decision-model-benchmarks](https://github.com/asopitech-publishing/decision-model-benchmarks) - Reproducible Strands, Clef, laya, and Jev decision-model benchmarks.
