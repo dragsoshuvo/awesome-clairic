@@ -8,7 +8,7 @@ Clef and Clef-flash are Cloudflare's open-weight decision models. They take a st
 
 Community-maintained. Not affiliated with Cloudflare. A listing means a project meets the [inclusion rules](CONTRIBUTING.md#what-gets-listed), not that it has been reviewed for quality or security; read the code before you depend on it. To add a project, open a pull request or [file an issue](https://github.com/rohinrohin/awesome-clef/issues/new?template=submit-project.yml). See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-109 entries · last refreshed 2026-10-15
+109 entries · last refreshed 2026-10-16
 
 ## Contents
 
@@ -109,13 +109,13 @@ Playgrounds, games, and small experiments you can run.
 
 - [clef-webcam](https://github.com/lucataco/clef-webcam) - Run Cloudflare's clef-flash decision model locally on your webcam.
 - [Clef Pictionary](https://github.com/jillesme/clef-pictionary) ([site](https://clef.jilles.fyi), [post](https://x.com/Jilles/status/2107572830225199403)) - Pictionary where Clef-flash on Workers AI guesses your drawing live, with per-word probabilities and an art critic score.
+- [clef-playground (JordanDalton)](https://github.com/JordanDalton/clef-playground) - Playground for Cloudflare's Clef decision models: typed questions, images, latency and cost.
 - [clefcam](https://github.com/tmchow/clefcam) - A camera that follows your rules, powered by Cloudflare Clef Flash.
 - [blind-earth-clef-jev](https://github.com/dylanler/blind-earth-clef-jev) - Blind-Earth land/water maps with Cloudflare Clef / Clef-flash and TypeSafe Jev (System One choice).
 - [bot-club](https://github.com/jackdnl/bot-club) - A playful AI nightclub. Cloudflare Clef-flash decides who gets in, live.
 - [clef-airy](https://github.com/ajdunn2/clef-airy) - Mac/Win Electron app for testing Jev, System One, and similar decision APIs inc. local models like Clef with Ollama. Build requests using forms or JSON and explore structured responses. Made with NativePHP.
 - [clef-demo](https://github.com/tehtommeh/clef-demo) - Demo of CloudFlare's Clef decision model https://huggingface.co/Cloudflare/clef-flash.
 - [clef-playground](https://github.com/szerintedmi/clef-playground) - Local playground for Cloudflare's Clef decision models (clef / clef-flash): edit state, images and questions; see probabilities, latency and cost.
-- [clef-playground (JordanDalton)](https://github.com/JordanDalton/clef-playground) - Playground for Cloudflare's Clef decision models: typed questions, images, latency and cost.
 - [clef-playground (sw30labs)](https://github.com/sw30labs/clef-playground) - Run Cloudflare Clef locally on Apple Silicon with an MLX playground, typed decisions, and a SystemOne-compatible API.
 - [heist](https://github.com/acoyfellow/heist) ([site](https://heist.coey.dev)) - A prompt injection game: get VaultBot, Meta's Llama 3.3 70B on Workers AI, to leak a vault code while Cloudflare Clef scores your message below 0.5.
 - [ours-privacy-demo](https://github.com/jhomra21/ours-privacy-demo) - Synthetic healthcare consent regression demo with browser evidence and optional Cloudflare Clef assessments.
