@@ -8,7 +8,7 @@ Clef and Clef-flash are Cloudflare's open-weight decision models. They take a st
 
 Community-maintained. Not affiliated with Cloudflare. A listing means a project meets the [inclusion rules](CONTRIBUTING.md#what-gets-listed), not that it has been reviewed for quality or security; read the code before you depend on it. To add a project, open a pull request or [file an issue](https://github.com/rohinrohin/awesome-clef/issues/new?template=submit-project.yml). See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-109 entries · last refreshed 2026-10-17
+109 entries · last refreshed 2026-10-18
 
 ## Contents
 
@@ -156,8 +156,8 @@ Run the open Clef weights on your own hardware.
 
 - [ollama](https://github.com/ollama/ollama) ([site](https://ollama.com)) - Run open models locally; includes Clef model support in its runners.
 - [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) ([site](https://rapidmlx.com)) - OpenAI-compatible inference server for Apple Silicon built on MLX, with System One support for the Clef family.
-- [simple-jev](https://github.com/featherless-ai/simple-jev) - Turn open models into a Jev-style classifier endpoint; includes a Hugging Face server for Clef.
 - [vllm-jev](https://github.com/mode-io/vllm-jev) - Native vLLM serving for Jev-style decision models, with Clef support and export.
+- [simple-jev](https://github.com/featherless-ai/simple-jev) - Turn open models into a Jev-style classifier endpoint; includes a Hugging Face server for Clef.
 - [coreai-model-zoo](https://github.com/john-rocky/coreai-model-zoo) ([site](https://john-rocky.github.io/coreai-model-zoo/)) - Models and conversion recipes for Apple's Core AI on iPhone and Mac, including a Clef-flash port.
 - [convert](https://github.com/ggml-org/convert) ([site](https://huggingface.co/ggml-org)) - Scripts to convert models to GGUF, with recipes for Clef and Clef-flash.
 - [cleffa](https://github.com/zknpr/cleffa) - Native C11 + Metal inference engine for Cloudflare Clef and Clef-Flash on Apple Silicon (BF16, Jev/SystemOne API). Built after ds4.
