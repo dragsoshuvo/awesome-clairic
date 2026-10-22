@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "categories": [
     {
       "id": "official",
@@ -163,7 +163,7 @@
       "stars": 43,
       "added": "2026-10-08",
       "created": "2025-04-07",
-      "pushed": "2026-10-21",
+      "pushed": "2026-10-22",
       "order": 8
     },
     {
@@ -188,7 +188,7 @@
       "stars": 157,
       "added": "2026-10-08",
       "created": "2025-05-31",
-      "pushed": "2026-10-21"
+      "pushed": "2026-10-22"
     },
     {
       "name": "yoagent",
@@ -197,10 +197,10 @@
       "description": "Rust agent loop with a decision module and a Workers integration, including a Clef worker example.",
       "category": "sdks",
       "language": "Rust",
-      "stars": 364,
+      "stars": 365,
       "added": "2026-10-08",
       "created": "2026-02-16",
-      "pushed": "2026-10-21"
+      "pushed": "2026-10-22"
     },
     {
       "name": "cc-router",
@@ -209,7 +209,7 @@
       "description": "Desktop LLM gateway that aggregates provider quotas for Claude Code and similar tools; ships a Cloudflare Clef provider.",
       "category": "sdks",
       "language": "Rust",
-      "stars": 284,
+      "stars": 285,
       "added": "2026-10-08",
       "created": "2026-04-24",
       "pushed": "2026-10-16"
@@ -320,7 +320,7 @@
       "stars": 9,
       "added": "2026-10-08",
       "created": "2026-06-17",
-      "pushed": "2026-10-12"
+      "pushed": "2026-10-22"
     },
     {
       "name": "judge-clef",
@@ -510,10 +510,10 @@
       "description": "Web search with decision models for source selection, query understanding, and relevance ranking; supports choosing Clef as the model.",
       "category": "apps",
       "language": "TypeScript",
-      "stars": 540,
+      "stars": 543,
       "added": "2026-10-08",
       "created": "2026-09-17",
-      "pushed": "2026-10-07"
+      "pushed": "2026-10-21"
     },
     {
       "name": "er-decision-support",
@@ -750,10 +750,10 @@
       "description": "Local UI and library to run and train LLMs; includes Clef model support and a Clef training benchmark script.",
       "category": "finetuning",
       "language": "Python",
-      "stars": 78349,
+      "stars": 78402,
       "added": "2026-10-08",
       "created": "2023-11-29",
-      "pushed": "2026-10-21"
+      "pushed": "2026-10-22"
     },
     {
       "name": "clef-finetune",
@@ -810,10 +810,10 @@
       "description": "Run open models locally; includes Clef model support in its runners.",
       "category": "selfhost",
       "language": "Go",
-      "stars": 184121,
+      "stars": 184259,
       "added": "2026-10-08",
       "created": "2023-06-26",
-      "pushed": "2026-10-21"
+      "pushed": "2026-10-22"
     },
     {
       "name": "vllm-jev",
@@ -822,10 +822,10 @@
       "description": "Native vLLM serving for Jev-style decision models, with Clef support and export.",
       "category": "selfhost",
       "language": "Python",
-      "stars": 690,
+      "stars": 665,
       "added": "2026-10-08",
       "created": "2026-09-24",
-      "pushed": "2026-10-19"
+      "pushed": "2026-10-21"
     },
     {
       "name": "simple-jev",
@@ -834,7 +834,7 @@
       "description": "Turn open models into a Jev-style classifier endpoint; includes a Hugging Face server for Clef.",
       "category": "selfhost",
       "language": "Python",
-      "stars": 611,
+      "stars": 613,
       "added": "2026-10-08",
       "created": "2026-09-18",
       "pushed": "2026-10-07"
@@ -846,10 +846,10 @@
       "description": "OpenAI-compatible inference server for Apple Silicon built on MLX, with System One support for the Clef family.",
       "category": "selfhost",
       "language": "Python",
-      "stars": 4005,
+      "stars": 4014,
       "added": "2026-10-08",
       "created": "2026-02-25",
-      "pushed": "2026-10-21"
+      "pushed": "2026-10-22"
     },
     {
       "name": "convert",
@@ -858,10 +858,10 @@
       "description": "Scripts to convert models to GGUF, with recipes for Clef and Clef-flash.",
       "category": "selfhost",
       "language": "Shell",
-      "stars": 55,
+      "stars": 56,
       "added": "2026-10-08",
       "created": "2026-07-08",
-      "pushed": "2026-10-20"
+      "pushed": "2026-10-21"
     },
     {
       "name": "coreai-model-zoo",
@@ -981,7 +981,7 @@
       "stars": 0,
       "added": "2026-10-08",
       "created": "2026-10-07",
-      "pushed": "2026-10-20"
+      "pushed": "2026-10-21"
     },
     {
       "name": "awesome-decision-models",
@@ -990,10 +990,10 @@
       "description": "A curated list of decision models (System One / typed decision models): hosted APIs, open-weight models, runtimes, SDKs, applications, benchmarks, and papers.",
       "category": "lists",
       "language": "Python",
-      "stars": 656,
+      "stars": 658,
       "added": "2026-10-08",
       "created": "2026-09-17",
-      "pushed": "2026-10-19"
+      "pushed": "2026-10-22"
     },
     {
       "name": "Hacker News discussion",
@@ -1062,10 +1062,10 @@
       "description": "Claude Code plugin that auto-picks the right model for each turn — micro, low, medium, or high tier — using Jev/Clef routing.",
       "category": "agents",
       "language": "JavaScript",
-      "stars": 32,
+      "stars": 33,
       "added": "2026-10-07",
       "created": "2026-09-22",
-      "pushed": "2026-10-14"
+      "pushed": "2026-10-22"
     },
     {
       "name": "Clef Pictionary",
@@ -1243,7 +1243,7 @@
       "description": "Unofficial skill for building with decision models (Jev, Clef, pplx-decider, ai_decide, Ollama): typed decisions, calibrated confidence, provider differences, and prior art sorted by implementation shape.",
       "category": "agents",
       "language": "Python",
-      "stars": 2,
+      "stars": 3,
       "added": "2026-10-07",
       "created": "2026-10-07",
       "pushed": "2026-10-10"
@@ -1363,10 +1363,10 @@
       "description": "Agent workbench for ongoing work with a pluggable decision subsystem; Cloudflare Clef is its first decision backend.",
       "category": "agents",
       "language": "Rust",
-      "stars": 171,
+      "stars": 172,
       "added": "2026-10-08",
       "created": "2025-12-18",
-      "pushed": "2026-10-21"
+      "pushed": "2026-10-22"
     },
     {
       "name": "clef-model-router (dwain-barnes)",
