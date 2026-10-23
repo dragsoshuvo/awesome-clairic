@@ -8,7 +8,7 @@ Clef and Clef-flash are Cloudflare's open-weight decision models. They take a st
 
 Community-maintained. Not affiliated with Cloudflare. A listing means a project meets the [inclusion rules](CONTRIBUTING.md#what-gets-listed), not that it has been reviewed for quality or security; read the code before you depend on it. To add a project, open a pull request or [file an issue](https://github.com/rohinrohin/awesome-clef/issues/new?template=submit-project.yml). See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-109 entries · last refreshed 2026-10-22
+109 entries · last refreshed 2026-10-23
 
 ## Contents
 
@@ -127,6 +127,7 @@ Benchmarks, evaluations, and head-to-head comparisons.
 - [Jev Decision Index](https://huggingface.co/spaces/multimodalart/jev-decision-index) - Hugging Face Space leaderboard comparing decision models, including Clef and Clef-flash, cited in Cloudflare's launch post.
 - [benchessmark](https://github.com/ickas/benchessmark) - Chess as a benchmark for decision models: Jev vs Clef, graded by Stockfish, with a replay viewer and video export.
 - [clef-evals](https://github.com/Gjusev/clef-evals) ([site](https://pypi.org/project/clef-evals/)) - Calibration-first evaluation toolkit for Cloudflare's Clef decision models. Judge cheap, audit confidence.
+- [system-one-security](https://github.com/ankushchadha/system-one-security) - Rerunnable security experiments on System One decision models (TypeSafe Jev, Cloudflare Clef): state poisoning, prompt injection, truncation, and guard questions.
 - [system1-rerank-bench](https://github.com/dchristopoulos/system1-rerank-bench) - Do System 1 decision models work as RAG rerankers? Jev, Clef-flash and Laya vs an LLM and six open rerankers on BEIR, with paired confidence intervals.
 - [admission-decision-eval](https://github.com/nicia-ai/admission-decision-eval) - Decision models on a knowledge-base write-admission task: Jev, Clef, Clef-flash.
 - [blackbox](https://github.com/acoyfellow/blackbox) ([site](https://blackbox.coey.dev)) - Replay a Pi agent log as a timeline and see which step the Clef model scores as the fault.
@@ -136,7 +137,6 @@ Benchmarks, evaluations, and head-to-head comparisons.
 - [jev-vs-clef](https://github.com/rmax-ai/jev-vs-clef) - Head-to-head stress comparison of Jev (TypeSafe System One) vs Cloudflare Clef / Clef-flash decision models — launch-week 159-call battery, harness, and raw evidence.
 - [local-decision](https://github.com/mthomas100/local-decision) - Run Cloudflare's Clef decision models locally on Apple Silicon (llama.cpp + MLX), with a calibrated, machine-truth benchmark.
 - [mobile-mcp-navigation-benchmark](https://github.com/guhcostan/mobile-mcp-navigation-benchmark) - Local paired benchmark: Luna vs CLEF-Flash for iOS navigation through Mobile MCP.
-- [system-one-security](https://github.com/ankushchadha/system-one-security) - Rerunnable security experiments on System One decision models (TypeSafe Jev, Cloudflare Clef): state poisoning, prompt injection, truncation, and guard questions.
 - [system1-decision-benchmark](https://github.com/Sj0605-DataSci/system1-decision-benchmark) - Common-ground benchmark of 50 System-1 decision models (Jev, Clef, Kev, Nimble, Tev1 vs embeddings, rerankers, NLI, prompted LLMs) on 22 datasets.
 
 ## Fine-tuning & RL
