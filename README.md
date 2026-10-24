@@ -8,7 +8,7 @@ Clef and Clef-flash are Cloudflare's open-weight decision models. They take a st
 
 Community-maintained. Not affiliated with Cloudflare. A listing means a project meets the [inclusion rules](CONTRIBUTING.md#what-gets-listed), not that it has been reviewed for quality or security; read the code before you depend on it. To add a project, open a pull request or [file an issue](https://github.com/rohinrohin/awesome-clef/issues/new?template=submit-project.yml). See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-109 entries · last refreshed 2026-10-23
+109 entries · last refreshed 2026-10-24
 
 ## Contents
 
@@ -59,9 +59,9 @@ Routers, gates, MCP servers, and skills that put Clef inside coding agents and a
 - [pi-model-router](https://github.com/alexei-led/pi-model-router) - Pi extension for four-tier model routing with budget controls and fallbacks; can use Cloudflare Clef as a routing advisor.
 - [ClefMCP](https://github.com/HighlyLoadedEgo/ClefMCP) ([site](https://www.npmjs.com/package/clef-mcp)) - Local MCP server exposing the Cloudflare Clef-Flash decision model to AI agents — structured decisions with probability outputs, fully offline via llama.cpp.
 - [building-with-decision-models](https://github.com/aaddrick/building-with-decision-models) - Unofficial skill for building with decision models (Jev, Clef, pplx-decider, ai_decide, Ollama): typed decisions, calibrated confidence, provider differences, and prior art sorted by implementation shape.
+- [clef-model-router](https://github.com/AbelNavarro/clef-model-router) - Claude Code mod that uses Cloudflare Clef to automatically select the model and reasoning effort for each turn.
 - [clef-router](https://github.com/Gjusev/clef-router) ([site](https://pypi.org/project/clef-router/)) - Route prompts between cheap and frontier LLMs with Cloudflare's Clef decision model. OpenAI-compatible proxy + library.
 - [odds](https://github.com/acoyfellow/odds) ([site](https://odds.coey.dev)) - Ask for odds, not prose. Clef decision models in Pi codemode through your own authenticated AI Gateway.
-- [clef-model-router](https://github.com/AbelNavarro/clef-model-router) - Claude Code mod that uses Cloudflare Clef to automatically select the model and reasoning effort for each turn.
 - [judge-clef](https://github.com/nicolasmertens/judge-clef) - Tells you when to /compact: exact Claude Code context size per turn plus a Cloudflare Clef judgment of whether now is a good moment.
 - [clef-gate](https://github.com/dwain-barnes/clef-gate) - Claude Code mod: asks a local Clef decision model whether a tool call or subagent is needed before paying for it.
 - [clef-model-router (dwain-barnes)](https://github.com/dwain-barnes/clef-model-router) - Claude Code mod that routes each turn to the cheapest sufficient model with Clef; fork adding a fully local backend (llama-server, Ollama).
