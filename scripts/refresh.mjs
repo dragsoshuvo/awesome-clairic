@@ -7,7 +7,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const file = resolve(root, "data/projects.json");
 const data = JSON.parse(readFileSync(file, "utf8"));
 const token = process.env.GITHUB_TOKEN;
-const headers = { Accept: "application/vnd.github+json", "User-Agent": "awesome-clef-refresh" };
+const headers = { Accept: "application/vnd.github+json", "User-Agent": "awesome-clairic-refresh" };
 if (token) headers.Authorization = `Bearer ${token}`;
 
 let changed = 0;

@@ -231,6 +231,7 @@ pre.code code { background: transparent; padding: 0; font-size: inherit; }
 .c-k { color: var(--pink); }
 .c-s { color: #b9e6a3; }
 .c-n { color: var(--gray-2); }
+.c-c { color: var(--gray-2); font-style: italic; }
 
 /* Directory */
 main.frame {

@@ -3,24 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Awesome Clef: Cloudflare Clef projects, SDKs, demos and resources</title>
-<meta name="description" content="Community directory of {{PROJECT_COUNT}} projects built with Cloudflare Clef: SDKs, agents, apps, demos, benchmarks, fine-tuning and self-hosting resources. Refreshed daily.">
-<link rel="canonical" href="https://awesomeclef.com/">
-<meta property="og:site_name" content="Awesome Clef">
-<meta property="og:title" content="Awesome Clef: the Cloudflare Clef community directory">
-<meta property="og:description" content="{{PROJECT_COUNT}} projects, tools, SDKs, demos and resources built with Cloudflare Clef. Community-maintained.">
-<meta property="og:url" content="https://awesomeclef.com/">
+<title>Awesome Clairic: Cloudflare Clairic projects, SDKs, demos and resources</title>
+<meta name="description" content="Community directory of {{PROJECT_COUNT}} projects built with Cloudflare Clairic: SDKs, agents, apps, demos, benchmarks and experiments. Refreshed daily.">
+<link rel="canonical" href="https://awesomeclairic.com/">
+<meta property="og:site_name" content="Awesome Clairic">
+<meta property="og:title" content="Awesome Clairic: the Cloudflare Clairic community directory">
+<meta property="og:description" content="{{PROJECT_COUNT}} projects, tools, SDKs, demos and resources built with Cloudflare Clairic. Community-maintained.">
+<meta property="og:url" content="https://awesomeclairic.com/">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://awesomeclef.com/assets/og.png">
+<meta property="og:image" content="https://awesomeclairic.com/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Awesome Clef">
-<meta name="twitter:description" content="{{PROJECT_COUNT}} projects, tools, SDKs, demos and resources built with Cloudflare Clef.">
-<meta name="twitter:image" content="https://awesomeclef.com/assets/og.png">
+<meta name="twitter:title" content="Awesome Clairic">
+<meta name="twitter:description" content="{{PROJECT_COUNT}} projects, tools, SDKs, demos and resources built with Cloudflare Clairic.">
+<meta name="twitter:image" content="https://awesomeclairic.com/assets/og.png">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Awesome Clef","url":"https://awesomeclef.com/","description":"Community directory of projects, tools, SDKs, demos and resources built with Cloudflare Clef."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Awesome Clairic","url":"https://awesomeclairic.com/","description":"Community directory of projects, tools, SDKs, demos and resources built with Cloudflare Clairic."}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -30,17 +30,17 @@
 
 <header class="hero">
   <nav class="nav">
-    <a class="nav-item brand" href="/">Awesome Clef</a>
+    <a class="nav-item brand" href="/">Awesome Clairic</a>
     <div class="nav-mid">
       <a class="nav-item" href="#directory">Directory</a>
-      <a class="nav-item" href="https://developers.cloudflare.com/workers-ai/models/clef/">Clef docs</a>
+      <a class="nav-item" href="https://developers.cloudflare.com/workers-ai/models/clairic/">Clairic docs</a>
     </div>
     <a class="nav-item" href="{{REPO_URL}}">GitHub</a>
   </nav>
   <div class="ticker win">
-    <div class="win-bar"><span>{{UPDATED_LONG}} · awesomeclef.com</span></div>
+    <div class="win-bar"><span>{{UPDATED_LONG}} · awesomeclairic.com</span></div>
     <div class="ticker-body">
-      <span>{{PROJECT_COUNT}} projects built with Clef, indexed and refreshed daily</span>
+      <span>{{PROJECT_COUNT}} projects built with Clairic, indexed and refreshed daily</span>
       <a href="#directory">Browse ↓</a>
     </div>
   </div>
@@ -50,8 +50,8 @@
 <section class="title frame">
   <span class="marks" aria-hidden="true"></span>
   <p class="kicker">Community directory <span class="dots"></span> Not affiliated with Cloudflare</p>
-  <h1>Everything<br>Built On Clef</h1>
-  <p class="sub">The community directory of projects, tools, SDKs, experiments and resources built with Cloudflare Clef. Stars refreshed daily from GitHub.</p>
+  <h1>Everything<br>Built On Clairic</h1>
+  <p class="sub">The community directory of projects, tools, SDKs, experiments and resources built with Cloudflare Clairic. Stars refreshed daily from GitHub.</p>
   <div class="big-links">
     <a href="#directory">Browse directory</a>
     <a href="{{SUBMIT_URL}}">Submit a project</a>
@@ -66,42 +66,40 @@
 
     <div class="band-grid">
       <div class="win spec">
-        <div class="win-bar"><span>CLEF · SPEC SHEET</span><span class="win-bar-r">oct 1, 2026</span></div>
+        <div class="win-bar"><span>CLAIRIC · SPEC SHEET</span><span class="win-bar-r">preview · oct 2026</span></div>
         <table class="kv">
-          <tr><th>models</th><td>@cf/cloudflare/clef (27B) · @cf/cloudflare/clef-flash (9B)</td></tr>
+          <tr><th>model</th><td>@cf/cloudflare/clairic</td></tr>
           <tr><th>runtime</th><td>Workers AI: env.AI.run(), or the REST API</td></tr>
-          <tr><th>input</th><td>state (text, JSON, image, video) + up to 64 typed questions</td></tr>
-          <tr><th>output</th><td>typed answers with a probability for every allowed option</td></tr>
+          <tr><th>input</th><td>state (text + up to 4 images) + typed fields</td></tr>
+          <tr><th>output</th><td>typed values with confidence scores, null probabilities, and spans</td></tr>
           <tr><th>context</th><td>65,536 tokens</td></tr>
-          <tr><th>pricing</th><td>$0.24 / MTok input (clef) · $0.09 (clef-flash)</td></tr>
-          <tr><th>weights</th><td><a href="https://huggingface.co/Cloudflare/clef">clef</a> · <a href="https://huggingface.co/Cloudflare/clef-flash">clef-flash</a> · Apache 2.0</td></tr>
-          <tr><th>api</th><td>Jev / System One compatible · <a href="https://blog.cloudflare.com/clef-decision-models/">launch post</a></td></tr>
+          <tr><th>pricing</th><td>$0.10 / MTok input</td></tr>
+          <tr><th>weights</th><td>not released yet — hosted on Workers AI only</td></tr>
         </table>
       </div>
       <div class="win prim">
-        <div class="win-bar"><span>PRIMITIVES</span><span class="win-bar-r">3</span></div>
+        <div class="win-bar"><span>PRIMITIVES</span><span class="win-bar-r">9</span></div>
         <table class="kv">
-          <tr><th>noul</th><td>is this statement true? → probability 0–1</td></tr>
-          <tr><th>choice</th><td>pick one option from <code>criteria</code> → <code>choice</code>, <code>probabilities</code>, <code>confidence</code></td></tr>
-          <tr><th>score</th><td>rate the state on ordered levels → probability-weighted <code>score</code></td></tr>
+          <tr><th>text</th><td>extract a span of the state → <code>value</code>, <code>span</code>, <code>confidence</code></td></tr>
+          <tr><th>number</th><td>read or compute a number → <code>value</code>, <code>confidence</code>, optional <code>unit</code>/<code>decimals</code></td></tr>
+          <tr><th>date / time / datetime</th><td>resolve a date or time, with <code>reference_date</code> anchoring</td></tr>
+          <tr><th>duration</th><td>an amount of time, unit-annotated (seconds … years)</td></tr>
+          <tr><th>list</th><td>extract items of a type → <code>value</code> array with <code>spans</code></td></tr>
+          <tr><th>estimate</th><td>belief over a range → <code>median</code>, <code>p10</code>, <code>p90</code>, <code>p_below</code>/<code>p_above</code></td></tr>
+          <tr><th>forecast</th><td>predict values over a <code>horizon</code> and <code>interval</code></td></tr>
         </table>
-        <pre class="code"><code><span class="c-k">const</span> response = <span class="c-k">await</span> env.AI.run(<span class="c-s">"@cf/cloudflare/clef-flash"</span>, {
-  model: <span class="c-s">"clef-flash"</span>,
-  state: <span class="c-s">"Checkout has been failing for every customer for the last hour."</span>,
-  questions: {
-    urgent: { type: <span class="c-s">"noul"</span>, instructions: <span class="c-s">"Is this support request urgent?"</span> },
-    team: {
-      type: <span class="c-s">"choice"</span>,
-      instructions: <span class="c-s">"Which team should handle this request?"</span>,
-      criteria: {
-        billing: <span class="c-s">"Payments, invoices, and refunds"</span>,
-        technical: <span class="c-s">"Outages, errors, and configuration"</span>,
-      },
-    },
+        <pre class="code"><code><span class="c-k">const</span> response = <span class="c-k">await</span> env.AI.run(<span class="c-s">"@cf/cloudflare/clairic"</span>, {
+  model: <span class="c-s">"clairic"</span>,
+  state: <span class="c-s">"Invoice INV-2291 from Northwind Supply, issued 2026-09-02, net 30."</span>,
+  fields: {
+    invoice_number: { type: <span class="c-s">"text"</span> },
+    due_date: { type: <span class="c-s">"date"</span>, instructions: <span class="c-s">"Issue date plus the net payment days"</span> },
+    total: { type: <span class="c-s">"number"</span>, decimals: <span class="c-n">2</span>, unit: <span class="c-s">"USD"</span> },
+    days_to_pay: { type: <span class="c-s">"estimate"</span>, min: <span class="c-n">0</span>, max: <span class="c-n">120</span>, step: <span class="c-n">1</span> },
   },
 });
 
-console.log(response.answers.team.choice);</code></pre>
+console.log(response.answers.due_date.value); <span class="c-c">// "2026-10-02"</span></code></pre>
       </div>
     </div>
   </div>
@@ -145,16 +143,16 @@ console.log(response.answers.team.choice);</code></pre>
 <footer class="footer">
   <div class="footer-inner">
     <div class="footer-col">
-      <p class="mono">AWESOME CLEF · {{PROJECT_COUNT}} ENTRIES</p>
+      <p class="mono">AWESOME CLAIRIC · {{PROJECT_COUNT}} ENTRIES</p>
       <p>Add a project by pull request to <code>data/projects.json</code> or <a href="{{SUBMIT_URL}}">open an issue</a>. One entry updates the README and this page.</p>
     </div>
     <div class="footer-col">
       <p class="mono">LINKS</p>
-      <p><a href="{{REPO_URL}}">github.com/rohinrohin/awesome-clef</a><br><a href="https://developers.cloudflare.com/workers-ai/models/clef/">clef docs</a> · <a href="https://huggingface.co/Cloudflare/clef">weights</a> · <a href="https://blog.cloudflare.com/clef-decision-models/">launch post</a></p>
+      <p><a href="{{REPO_URL}}">github.com/bghira/awesome-clairic</a><br><a href="https://developers.cloudflare.com/workers-ai/models/clairic/">clairic docs</a></p>
     </div>
     <div class="footer-col">
       <p class="mono">COLOPHON</p>
-      <p>Community-maintained. Not affiliated with Cloudflare. A listing is not an endorsement. Content CC0, forked from <a href="https://github.com/hellogumbo/awesome-jev">awesome-jev</a>. Build {{BUILD_STRING}}.</p>
+      <p>Community-maintained. Not affiliated with Cloudflare. A listing is not an endorsement. Content CC0, forked from <a href="https://github.com/rohinrohin/awesome-clef">awesome-clef</a>. Build {{BUILD_STRING}}.</p>
     </div>
   </div>
 </footer>

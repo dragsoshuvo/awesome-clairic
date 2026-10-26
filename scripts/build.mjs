@@ -49,16 +49,16 @@ const readmeSections = categories
 
 const contents = categories.map((c) => `- [${c.title}](#${slug(c.title)})`).join("\n");
 
-const REPO_URL = "https://github.com/rohinrohin/awesome-clef";
+const REPO_URL = "https://github.com/bghira/awesome-clairic";
 const SUBMIT_URL = `${REPO_URL}/issues/new?template=submit-project.yml`;
 
-const readme = `# Awesome Clef [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+const readme = `# Awesome Clairic [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of projects, tools, SDKs, applications, experiments and resources built around [Cloudflare Clef](https://developers.cloudflare.com/workers-ai/models/clef/).
+> A curated list of projects, tools, SDKs, applications, experiments and resources built around [Cloudflare Clairic](https://developers.cloudflare.com/workers-ai/models/clairic/).
 
-Site: **[awesomeclef.com](https://awesomeclef.com)** (searchable, with GitHub stars refreshed daily).
+Site: **[awesomeclairic.com](https://awesomeclairic.com)** (searchable, with GitHub stars refreshed daily).
 
-Clef and Clef-flash are Cloudflare's open-weight decision models. They take a state (text, JSON, images or video) plus a schema of typed questions (\`noul\`, \`choice\`, \`score\`) and return a probability for every allowed answer in one forward pass, without generating text. Workers AI ids \`@cf/cloudflare/clef\` (27B) and \`@cf/cloudflare/clef-flash\` (9B), weights on [Hugging Face](https://huggingface.co/Cloudflare/clef) under Apache 2.0, launched 2026-10-01 ([announcement](https://blog.cloudflare.com/clef-decision-models/)).
+Clairic is a System One-style extraction model from Cloudflare, currently in preview. It takes a state (text and up to 4 images) plus a schema of typed fields (\`text\`, \`number\`, \`date\`, \`list\`, \`estimate\`, \`forecast\`, ...) and returns a typed value for every field in one forward pass — exact spans for text, median and intervals for estimates, and a confidence score with null probabilities on every answer. Workers AI id \`@cf/cloudflare/clairic\`, 65k context, $0.10/M input tokens. Open weights have not been released yet.
 
 Community-maintained. Not affiliated with Cloudflare. A listing means a project meets the [inclusion rules](CONTRIBUTING.md#what-gets-listed), not that it has been reviewed for quality or security; read the code before you depend on it. To add a project, open a pull request or [file an issue](${SUBMIT_URL}). See [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -77,7 +77,7 @@ Pull requests welcome. Edit \`data/projects.json\` (it drives both this README a
 
 ## License
 
-[CC0 1.0](LICENSE). Forked from [awesome-jev](https://github.com/hellogumbo/awesome-jev) (also CC0). Linked projects, names and trademarks belong to their owners.
+[CC0 1.0](LICENSE). Forked from [awesome-clef](https://github.com/rohinrohin/awesome-clef) (also CC0), which forked it from [awesome-jev](https://github.com/hellogumbo/awesome-jev). Linked projects, names and trademarks belong to their owners.
 `;
 
 writeFileSync(resolve(root, "README.md"), readme);
@@ -126,8 +126,8 @@ const chips = [`<button class="chip is-active" data-filter="all" type="button">A
   .join("\n");
 
 const featuredPool = projects
-  // Projects built for Clef, not large general-purpose repos that added Clef support.
-  .filter((p) => p.repo && (p.created || "") >= "2026-09-25" && !["official", "lists", "articles"].includes(p.category))
+  // Projects built for Clairic, not large general-purpose repos that added Clairic support.
+  .filter((p) => p.repo && (p.created || "") >= "2026-10-19" && !["official", "lists", "articles"].includes(p.category))
   .sort((a, b) => (b.stars || 0) - (a.stars || 0))
   .slice(0, 4);
 const featured = featuredPool
@@ -143,8 +143,8 @@ const featured = featuredPool
 
 const repoCount = projects.filter((p) => p.repo).length;
 const siteCount = projects.filter((p) => p.site).length;
-// Count stars only for projects built since the Clef launch window, not large repos that added support.
-const starsTotal = projects.reduce((n, p) => n + (p.repo && (p.created || "") >= "2026-09-25" ? p.stars || 0 : 0), 0);
+// Count stars only for projects built since the Clairic launch window, not large repos that added support.
+const starsTotal = projects.reduce((n, p) => n + (p.repo && (p.created || "") >= "2026-10-19" ? p.stars || 0 : 0), 0);
 
 const articleCount = projects.filter((p) => p.category === "articles").length;
 let sha = "local";
@@ -172,7 +172,7 @@ writeFileSync(resolve(root, "site/index.html"), html);
 // ---------- sitemap / robots ----------
 writeFileSync(
   resolve(root, "site/sitemap.xml"),
-  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>https://awesomeclef.com/</loc><lastmod>${data.updated}</lastmod><changefreq>daily</changefreq></url>\n</urlset>\n`
+  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>https://awesomeclairic.com/</loc><lastmod>${data.updated}</lastmod><changefreq>daily</changefreq></url>\n</urlset>\n`
 );
-writeFileSync(resolve(root, "site/robots.txt"), "User-agent: *\nAllow: /\n\nSitemap: https://awesomeclef.com/sitemap.xml\n");
+writeFileSync(resolve(root, "site/robots.txt"), "User-agent: *\nAllow: /\n\nSitemap: https://awesomeclairic.com/sitemap.xml\n");
 console.log(`Built README.md and site/index.html: ${projects.length} entries, ${repoCount} repos, ${siteCount} sites, ${num(starsTotal)} stars.`);

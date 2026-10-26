@@ -1,10 +1,10 @@
 {
-  "name": "awesome-clef",
+  "name": "awesome-clairic",
   "version": "1.0.0",
   "private": true,
-  "description": "A curated directory of projects, tools, SDKs, demos and resources built with Cloudflare Clef.",
-  "homepage": "https://awesomeclef.com",
-  "repository": "github:rohinrohin/awesome-clef",
+  "description": "A curated directory of projects, tools, SDKs, demos and resources built with Cloudflare Clairic.",
+  "homepage": "https://awesomeclairic.com",
+  "repository": "github:bghira/awesome-clairic",
   "type": "module",
   "scripts": {
     "validate": "node scripts/validate.mjs",

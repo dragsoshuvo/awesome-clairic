@@ -24,7 +24,8 @@ export function categorize(repo) {
   return "apps";
 }
 
-// A repo is relevant only with a Clef-specific signal. "clef" alone is a music term,
-// so it must appear next to Cloudflare / decision-model context, or as a model id.
-export const RELEVANT = /(@cf\/cloudflare\/clef|cloudflare\/clef|clef-flash|cloudflare'?s? clef|clef (decision|model)|\bclef\b.*\b(cloudflare|workers ai|decision model|systemone|system one|jev)\b|\b(cloudflare|workers ai|decision model|systemone|system one|jev)\b.*\bclef\b)/i;
-export const CLEF_LAUNCH = "2026-10-01";
+// A repo is relevant only with a Clairic-specific signal. "clairic" is distinctive,
+// but lookalike projects exist (Clairich, clairica), so it must still appear next to
+// Cloudflare / extraction-model context, or as a model id.
+export const RELEVANT = /(@cf\/cloudflare\/clairic|cloudflare\/clairic|cloudflare'?s? clairic|clairic (extraction|model|field)|\bclairic\b.*\b(cloudflare|workers ai|extraction|typed (data|fields)|systemone|system one|jev)\b|\b(cloudflare|workers ai|extraction model|typed data|systemone|system one|jev)\b.*\bclairic\b)/i;
+export const CLAIRIC_LAUNCH = "2026-10-19";

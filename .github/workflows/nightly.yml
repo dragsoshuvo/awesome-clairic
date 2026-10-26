@@ -60,7 +60,7 @@ jobs:
           command: deploy
 
   discover:
-    # New Clef projects are proposed as a pull request, never published directly.
+    # New Clairic projects are proposed as a pull request, never published directly.
     needs: refresh
     runs-on: ubuntu-latest
     permissions:
@@ -79,8 +79,8 @@ jobs:
         run: npm run discover -- --add --days=7 --report=/tmp/discovery.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Optional: Clef-flash judges each candidate. Needs Workers AI access on the token.
-          CLOUDFLARE_ACCOUNT_ID: cec5612170f2a2fbb96741bcaa29c36f
+          # Optional: Clairic judges each candidate. Needs Workers AI access on the token.
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_AI_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       - run: npm run validate
       - name: Open review PR
@@ -89,7 +89,7 @@ jobs:
           branch: discovery/nightly
           delete-branch: true
           add-paths: data/projects.json
-          commit-message: "data: add discovered Clef projects"
-          title: "Discovery: new Clef projects to review"
+          commit-message: "data: add discovered Clairic projects"
+          title: "Discovery: new Clairic projects to review"
           body-path: /tmp/discovery.md
           labels: discovery

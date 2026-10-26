@@ -1,5 +1,5 @@
 name: Submit a project
-description: Add something built with Cloudflare Clef to the directory.
+description: Add something built with Cloudflare Clairic to the directory.
 title: "Add: "
 labels: [submission]
 body:
@@ -8,7 +8,7 @@ body:
     attributes:
       label: Link
       description: GitHub repo, live site, or article.
-      placeholder: https://github.com/you/your-clef-project
+      placeholder: https://github.com/you/your-clairic-project
     validations:
       required: true
   - type: input
@@ -19,8 +19,8 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: What does it do, and where does Clef fit?
-      description: One or two sentences in plain language. Link to the file or line that calls Clef if you can.
+      label: What does it do, and where does Clairic fit?
+      description: One or two sentences in plain language. Link to the file or line that calls Clairic if you can.
     validations:
       required: true
   - type: dropdown
