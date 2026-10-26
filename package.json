@@ -11,15 +11,10 @@
     "build": "node scripts/build.mjs",
     "refresh": "node scripts/refresh.mjs",
     "discover": "node scripts/discover.mjs",
-    "dev": "npm run build && python3 -m http.server 4173 --directory site",
-    "deploy": "npm run build && wrangler deploy",
-    "deploy:redirect": "wrangler deploy --config redirect/wrangler.jsonc"
+    "dev": "npm run build && python3 -m http.server 4173 --directory site"
   },
   "engines": {
     "node": ">=20"
   },
-  "license": "CC0-1.0",
-  "devDependencies": {
-    "wrangler": "^4.148.0"
-  }
+  "license": "CC0-1.0"
 }

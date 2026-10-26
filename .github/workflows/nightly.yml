@@ -6,12 +6,8 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: deploy
+  group: pages
   cancel-in-progress: false
-
-env:
-  # Deploy steps are skipped until the CLOUDFLARE_API_TOKEN secret exists.
-  HAS_CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
 
 jobs:
   refresh:
@@ -52,12 +48,6 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: rebuild README"
           git pull --rebase origin main
           git push
-      - name: Deploy
-        if: steps.commit.outputs.changed == 'true' && env.HAS_CF_TOKEN == 'true'
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          command: deploy
 
   discover:
     # New Clairic projects are proposed as a pull request, never published directly.

@@ -53,7 +53,7 @@ Listing is not endorsement. We check that a project really involves Clairic; we 
 
 A nightly GitHub Action:
 
-1. **Refreshes** stars, languages, homepages, and renames for every listed repo, rebuilds, and deploys.
+1. **Refreshes** stars, languages, homepages, and renames for every listed repo, and rebuilds (GitHub Pages publishes the site).
 2. **Discovers** new repos (`scripts/discover.mjs`) via GitHub repository search (Clairic-specific phrases in names, descriptions, and topics) and code search (`@cf/cloudflare/clairic`, `Cloudflare/clairic`).
 3. **Asks Clairic** (optional). When the `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN` secrets have Workers AI access, Clairic reads each candidate's README and answers two typed fields: the probability it really uses Clairic (an `estimate` from 0 to 1), and the best-fitting category (a `text` field, copied from a list of category ids embedded in the state). Candidates scored below 0.5 are not proposed.
 4. **Opens a pull request** with the candidates that pass the bar, plus a list of weaker hits for a manual look. Nothing is published until a maintainer merges it.
