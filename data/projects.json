@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "categories": [
     {
       "id": "official",
@@ -90,7 +90,8 @@
       "language": "TypeScript",
       "stars": 2,
       "added": "2026-10-26",
-      "created": "2026-10-19"
+      "created": "2026-10-19",
+      "pushed": "2026-10-26"
     },
     {
       "name": "ClairicStudio",
@@ -101,7 +102,8 @@
       "language": "Go",
       "stars": 1,
       "added": "2026-10-26",
-      "created": "2026-10-23"
+      "created": "2026-10-23",
+      "pushed": "2026-10-23"
     },
     {
       "name": "clairic-trust-slider",
@@ -112,7 +114,8 @@
       "language": "JavaScript",
       "stars": 1,
       "added": "2026-10-26",
-      "created": "2026-10-20"
+      "created": "2026-10-20",
+      "pushed": "2026-10-20"
     },
     {
       "name": "clairic-demo",
@@ -123,7 +126,8 @@
       "language": "JavaScript",
       "stars": 0,
       "added": "2026-10-26",
-      "created": "2026-10-21"
+      "created": "2026-10-21",
+      "pushed": "2026-10-21"
     },
     {
       "name": "aotn-clairic",
@@ -134,7 +138,8 @@
       "language": "Rust",
       "stars": 0,
       "added": "2026-10-26",
-      "created": "2026-10-25"
+      "created": "2026-10-25",
+      "pushed": "2026-10-25"
     }
   ]
 }
