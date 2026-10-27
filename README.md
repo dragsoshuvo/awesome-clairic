@@ -8,7 +8,7 @@ Clairic is a System One-style extraction model from Cloudflare, currently in pre
 
 Community-maintained. Not affiliated with Cloudflare. A listing means a project meets the [inclusion rules](CONTRIBUTING.md#what-gets-listed), not that it has been reviewed for quality or security; read the code before you depend on it. To add a project, open a pull request or [file an issue](https://github.com/bghira/awesome-clairic/issues/new?template=submit-project.yml). See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-6 entries · last refreshed 2026-10-26
+6 entries · last refreshed 2026-10-27
 
 ## Contents
 
