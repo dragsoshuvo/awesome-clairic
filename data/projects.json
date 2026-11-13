@@ -141,6 +141,18 @@
       "added": "2026-10-26",
       "created": "2026-10-25",
       "pushed": "2026-10-25"
+    },
+    {
+      "name": "clairic",
+      "repo": "VianneyMI/clairic",
+      "site": null,
+      "description": "Unofficial typed Python SDK for Cloudflare Clairic API endpoint. System One Extraction Model.",
+      "category": "sdks",
+      "language": "Python",
+      "stars": 1,
+      "added": "2026-11-13",
+      "created": "2026-10-25",
+      "pushed": "2026-11-12"
     }
   ]
 }
